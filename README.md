@@ -1,4 +1,4 @@
-# Vue.js New Api활용을 통한 사이트 구현
+# Vue.js News Api를 활용하여 사이트 구현
 
 
 
