@@ -1,8 +1,7 @@
-# Vue.js 완벽 가이드
+# Vue.js New Api활용을 통한 사이트 구현
 
-Vue.js 완벽 가이드 인프런 강의 리포지토리입니다.
 
-![vue.js 완벽 가이드 강의 썸네일](https://joshua1988.github.io/images/posts/web/inflearn/lv3.png)
+
 
 ## License & Copyright
 
