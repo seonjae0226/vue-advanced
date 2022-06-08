@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="main">
         <p v-for="job in this.$store.state.jobs" v-bind:key="job.id">
             <a :href="job.url">{{ job.title }}</a>
-            <small> {{ job.time_ago }}, {{ job.domain }}</small>
+            <small><br v-html="br"> {{ job.time_ago }} <br v-html="br"> {{ job.domain }}</small>
         </p>
     </div>
 </template>
@@ -15,6 +15,8 @@ export default {
 }
 </script>
 
-<style>
-    
+<style scoped>
+    .main{
+        padding: 15px;
+    }
 </style>
